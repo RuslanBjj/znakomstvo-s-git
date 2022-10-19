@@ -1,17 +1,11 @@
-
-const numberOffilms = prompt("Сколько фильмов вы уже посмотрели?","");
-const PersonalMovie = {
-    count:numberOffilms,
-    actors:{},
-    movies: {},
-    genres:[],
-    privat: false
+const listDel = prompt ("Сколько важных дел ?", "") ;
+const Zadachi = {
+Walking:{},
+study:{},
+doIt:true
 } ;
-const vopros = prompt ("один из последних просмотренных фильмов?", "") ,
-     voprosDva = prompt("На сколько оцените его?", "") ;
-     
-
-PersonalMovie.movies[vopros ]= voprosDva ;
-
-
-console.log(PersonalMovie) ;
+const walk = prompt ("С кем гулял?", ""),
+    study = prompt ("Что учил?", "");
+    Zadachi.Walking[walk];
+    Zadachi.study[study];
+    console.log(Zadachi);
